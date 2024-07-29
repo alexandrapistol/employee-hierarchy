@@ -20,7 +20,6 @@ const EmployeeCard: FC<EmployeeProps> = (props) => {
                 <div className='employee-card-header'>
                     {genType === 'male' ?
                         <img src={maleAvatar} className='avatar' alt='Male avatar icon' /> : <img src={femaleAvatar} className='avatar' alt='Female avatar icon' />}
-
                 </div>
                 <div className='employee-card-body'>
                     <div className='name'>
