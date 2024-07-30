@@ -6,12 +6,10 @@ import EmployeeCard from "./components/EmployeeCard";
 function App() {
 
   return (
-    <>
-      <div className="hierarchy">
-        <h1>Employee hierarchy</h1>
-        <EmployeeCard employee={employersData} />
-      </div>
-    </>
+    <div className="hierarchy">
+      <h1>Employee hierarchy</h1>
+      <EmployeeCard employee={employersData} />
+    </div>
   )
 }
 

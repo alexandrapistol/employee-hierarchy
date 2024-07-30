@@ -15,7 +15,7 @@ const EmployeeCard: FC<EmployeeProps> = (props) => {
         currency: 'USD',
     });
     return (
-        <div className='employee'>
+        <section className='employee'>
             <div className='employee-card'>
                 <div className='employee-card-header'>
                     {genType === 'male' ?
@@ -36,7 +36,7 @@ const EmployeeCard: FC<EmployeeProps> = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

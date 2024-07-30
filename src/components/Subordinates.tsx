@@ -3,7 +3,7 @@ import { Employee } from '../types';
 import EmployeeCard from './EmployeeCard';
 
 interface SubordinatesProps {
-    subordinates?: Employee[] | [];
+    subordinates?: Employee[];
 }
 
 const Subordinates: FC<SubordinatesProps> = (props) => {
